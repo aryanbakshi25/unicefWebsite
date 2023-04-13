@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5ebade;
+    filter: brightness(1.2);
+}
+
+form{
+    background: #fff;
+    width: 500px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.message-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message-icon i{
+    font-size: 40px;
+}
+
+.message-icon span{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+form input, textarea{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+
+.message-box{
+    border-bottom: 1px solid #022aad;
+}
+
+#input-field{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#input-field i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.send-btn{
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    background: #000;
+    color: white;
+    font-size: 16px;
+    padding: 6px 0;
+    border-radius: 25px;
+}
+
+/* #input-field svg{
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+
+#input-field select {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #707070;
+    font-size: 14px;
+    height: 40px;
+    padding: 6px 20px 6px 10px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5"><path fill="%23555" d="M0 0l4 4 4-4"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 8px 5px;
+  }
+  
+  #input-field select:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 0 1px #0077cc;
+    outline: none;
+  }
+   */
